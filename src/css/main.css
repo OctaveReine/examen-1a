@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+.flexbox {
+  display: flex;
+  width: 1728px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  background: #fff;
+}
+
+.block1 {
+  width: 1728px;
+  height: 230px;
+  background: #8ecae6;
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.texte1 {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 362px;
+  width: 432px;
+  height: 130px;
+  border: 1px solid #146c81;
+  background: #219ebc;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 1728px;
+  height: 530px;
+  background: #8ecae6;
+}
+
+.texte2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  padding-right: auto;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 469px;
+  height: 130px;
+  border: 1px solid #146c81;
+  background: #219ebc;
+}
+
+.block3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1728px;
+  height: 230px;
+  background: #8ecae6;
+}
+
+.texte3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 239px;
+  height: 130px;
+  border: 1px solid #146c81;
+  background: #219ebc;
+}
+
+.block4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 1728px;
+  height: 500px;
+  background: #8ecae6;
+}
+
+.texte4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 525px;
+  height: 130px;
+  border: 1px solid #146c81;
+  background: #219ebc;
+}
+
+.block5 {
+  display: flex;
+  flex-direction: column;
+  width: 1728px;
+  height: 360px;
+  background: #8ecae6;
+}
+
+.texte5 {
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  border: 1px solid #146c81;
+  background: #219ebc;
+}
